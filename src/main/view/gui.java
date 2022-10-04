@@ -1,2 +1,8 @@
-package PACKAGE_NAME;public class gui {
+import javax.swing.*;
+
+class gui{
+    public static void main(String args[]){
+        // construct the graphical user interface
+        MainView.getMainView();
+    }
 }
